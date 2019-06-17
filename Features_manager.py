@@ -26,19 +26,19 @@ class Features_manager(object):
         """
         self.global_feature_types_list={
              "ngrams":          self.get_ngrams_features,
-             # "chargrams":       self.get_nchargrams_features,
+             "chargrams":       self.get_nchargrams_features,
              # "puntuactionmarks":self.get_puntuaction_marks_features,
              # "capitalizedletters":self.get_capitalized_letters_features,
              # "laughter":self.get_laughter_features,
              # "upos":self.get_upos_features,
              # "deprelneg":self.get_deprelneg_features,
-             # "deprel":self.get_deprel_features,
+             "deprel":self.get_deprel_features,
              # "relationformVERB"   :self.get_relationformVERB_features,
              # "relationformNOUN"   :self.get_relationformNOUN_features,
              # "relationformADJ"    :self.get_relationformADJ_features,
-            # "Sidorovbigramsform"   :self.get_Sidorov_bigramsform_features,
+            "Sidorovbigramsform"   :self.get_Sidorov_bigramsform_features,
             # "Sidorovbigramsupostag":self.get_Sidorov_bigramsupostag_features,
-            # "Sidorovbigramsdeprel" :self.get_Sidorov_bigramsdeprel_features,
+            "Sidorovbigramsdeprel" :self.get_Sidorov_bigramsdeprel_features,
 
         }
 
