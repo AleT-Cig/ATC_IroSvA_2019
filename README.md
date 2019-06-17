@@ -14,4 +14,4 @@ ufal.udpipe
 
 
 USAGE:
-python main.py
+python3 Main - Generate output.py
